@@ -1,5 +1,8 @@
 import json
 from langchain_openai import ChatOpenAI
+import langchain
+print(langchain.__version__)
+print(langchain.__file__)
 from langchain_experimental.agents.agent_toolkits import create_pandas_dataframe_agent
 
 
